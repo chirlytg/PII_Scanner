@@ -5,7 +5,7 @@
 Una extensión para Burp que escanea de forma pasiva todos las respuestas HTTP, y en caso de detectar un
 documento CPF (Catastro de Persona Física - Brasil) muestra un alerta como output de log de la misma extensión.
 
-Esta extensión detecta literalmente la palabra CPF en el cuerpo de la respuesta entregada.
+Esta extensión detecta literalmente la palabra CPF seguida de un número en el cuerpo de la respuesta entregada.
 
 # Instalación
 
