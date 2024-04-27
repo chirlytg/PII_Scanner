@@ -12,10 +12,10 @@ Esta extensión detecta literalmente la palabra CPF en el cuerpo de la respuesta
 ## Manual
 
 1. Descargue [1.Search_PII.py](1.Search_PII.py) en la máquina a ejecutar
-2. Vaya a la pestaña _**Extender > Extensions**_, luego haga click en el botón _**Add**_ button. En la ventana emergente navege hasta la ubucación de **1.Search_PII.py** y haga click en el botón _**Next**_.
+2. Vaya a la pestaña _**Extender > Extensions**_, luego haga click en el botón _**Add**_. En la ventana emergente navegue hasta la ubucación de **1.Search_PII.py** y haga click en el botón _**Next**_.
 
-## Como usar
+## Cómo usar
 
-Navegue al sitio que desea analizar y en la salida de logs de la extensión en caso de detectar un CPF se mostrará un evento.
+Navegue al sitio que desea analizar y en la salida de logs de la extensión, en caso de detectar un CPF, se mostrará un evento.
 
 ![Scanner PII](/images/scanner_pii.png)
