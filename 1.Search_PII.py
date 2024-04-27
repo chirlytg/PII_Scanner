@@ -26,6 +26,8 @@ class BurpExtender(IBurpExtender, IHttpListener):
       return
     headers, body = self.getResponseHeadersAndBody(content)
     # If the response body contains "CPF", print a message indicating PII detection.
-    if "CPF" in body:
-      print("Se ha detectado un CPF")
-      #print(body)
+    for i in range (0,10):
+      cpftodetect = "CPF " + str(i)
+      if cpftodetect in body:
+        print("Se ha detectado un CPF")
+        #print(body)
